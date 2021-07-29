@@ -1,0 +1,20 @@
+{
+  "name": "@fluido/text-width",
+  "version": "0.0.1",
+  "description": "Calcular largura e altura de texto com base na formatação",
+  "author": {
+    "email": "morbden.dev@gmail.com",
+    "name": "Morbden"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pub": "npm publish --access public",
+    "pub:all": "run-s build pub"
+  },
+  "dev-dependencies": {},
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
